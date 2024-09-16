@@ -21,17 +21,21 @@ ui克隆来自 [Telegra.ph](http://telegra.ph)
 
 默认使用 localhost:5001 ，通过页面 location.hash 传递域名可以覆盖整个配置，例如 api.abc.com ,将会调用 api.abc.com/api/v0/add 上传数据。
 
+# 环境变量
+
+window.api_host 提交到ipfs的接口，可以只实现 /api/v0/add 
+
+window.ipfs_gateway 发布成功后默认跳转的ipfs网关
+
 # 样例
 
-cid：QmTGMMJF18JAWkgPyZHi5Kb6dMwRgkcmzEx8e1TbaMcjJh
+cid：QmTCrcy5gE85cwqQf2UdcYpjMb7PrWKqBBcAuHoCwcGXZ6
 
-[blockframe](https://ipfs.blockframe.io/ipfs/QmTGMMJF18JAWkgPyZHi5Kb6dMwRgkcmzEx8e1TbaMcjJh/#cdn.ipfsscan.io)
+[blockframe](https://ipfs.blockframe.io/ipfs/QmTCrcy5gE85cwqQf2UdcYpjMb7PrWKqBBcAuHoCwcGXZ6/#cdn.ipfsscan.io)
 
-[ipfs.io](https://ipfs.io/ipfs/QmTGMMJF18JAWkgPyZHi5Kb6dMwRgkcmzEx8e1TbaMcjJh/#cdn.ipfsscan.io)
+[ipfs.io](https://ipfs.io/ipfs/QmTCrcy5gE85cwqQf2UdcYpjMb7PrWKqBBcAuHoCwcGXZ6/#cdn.ipfsscan.io)
 
-你也可以自己下载ipfs-desktop ，访问 http://127.0.0.1:8080/ipfs/QmTGMMJF18JAWkgPyZHi5Kb6dMwRgkcmzEx8e1TbaMcjJh/
+你也可以自己下载ipfs-desktop ，访问 http://127.0.0.1:8080/ipfs/QmTCrcy5gE85cwqQf2UdcYpjMb7PrWKqBBcAuHoCwcGXZ6/
 
 ## Thanks
- * https://github.com/silentcicero/ipfs-mini
  * http://telegra.ph
- * https://www.cachep2p.com
